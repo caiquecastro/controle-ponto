@@ -13,20 +13,26 @@
             <div class="cover-container">
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <h3 class="masthead-brand">Controle de Ponto</h3>
-                        <ul class="nav masthead-nav">
-                            <li class="active"><a href="index.php">Home</a></li>
-                            <li><a href="#">Funcionalidades</a></li>
-                            <li><a href="login.php">Login</a></li>
+                      <h3 class="masthead-brand">Controle de Ponto</h3>
+                      <ul class="nav masthead-nav">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="#">Funcionalidades</a></li>
+                        <li class="active"><a href="login.php">Login</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="inner cover">
-                    <h1 class="cover-heading">Controle de Ponto</h1>
-                    <p class="lead">Essa é uma ferramenta desenvolvida para fornecer uma solução de controle de ponto via intranet para pequenas e médias empresas</p>
-                    <p class="lead">
-                        <a href="#" class="btn btn-lg btn-default">Saiba Mais</a>
-                    </p>
+                    <form class="form-signin" role="form" action="auth.php" method="POST">
+                        <h2 class="form-signin-heading">Área Restrita</h2>
+                        <input type="email" class="form-control" placeholder="Email address" required autofocus>
+                        <input type="password" class="form-control" placeholder="Password" required>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+                    </form>
                 </div>
                 <div class="mastfoot">
                     <div class="inner">
