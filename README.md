@@ -18,3 +18,4 @@ Ferramenta para controlar o ponto de funcionários e estagiários
 ###Cliente###
 * Registrar entrada / saída de horário de serviço
 * Ver seu relatório de horário de ponto
+* Exportar relatório de ponto

@@ -24,8 +24,8 @@
                 <div class="inner cover">
                     <form class="form-signin" role="form" action="auth.php" method="POST">
                         <h2 class="form-signin-heading">Área Restrita</h2>
-                        <input type="email" class="form-control" placeholder="Email address" required autofocus>
-                        <input type="password" class="form-control" placeholder="Password" required>
+                        <input type="text" class="form-control" placeholder="Usuário" required autofocus>
+                        <input type="password" class="form-control" placeholder="Senha" required>
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" value="remember-me"> Remember me
