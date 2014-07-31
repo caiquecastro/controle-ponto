@@ -33,7 +33,90 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>Funcionários</h2>
-                
+                <div class="col-md-4">
+                    <h3 class="media-heading">Manuel da Silva</h3>
+                    <p><strong>Cargo:</strong> Analista de Mercado</p>
+                    <p><strong>Setor:</strong> Financeiro / Administração</p>
+                    <p><strong>Carga horária diária:</strong> 8h48m</p>
+                    <p><strong>Saldo Atual:</strong> 12h19m</p>
+                    <p>
+                        <strong>Status:</strong>
+                        <span class="label label-success">Trabalhando</span>
+                        <span class="label label-primary">Férias</span>
+                        <span class="label label-warning">Em almoço</span>
+                        <!-- <span class="label label-danger">Fora de horário de serviço</span> -->
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="media-heading">Manuel da Silva</h3>
+                    <p><strong>Cargo:</strong> Analista de Mercado</p>
+                    <p><strong>Setor:</strong> Financeiro / Administração</p>
+                    <p><strong>Carga horária diária:</strong> 8h48m</p>
+                    <p><strong>Saldo Atual:</strong> 12h19m</p>
+                    <p>
+                        <strong>Status:</strong>
+                        <span class="label label-success">Trabalhando</span>
+                        <span class="label label-primary">Férias</span>
+                        <span class="label label-warning">Em almoço</span>
+                        <!-- <span class="label label-danger">Fora de horário de serviço</span> -->
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="media-heading">Manuel da Silva</h3>
+                    <p><strong>Cargo:</strong> Analista de Mercado</p>
+                    <p><strong>Setor:</strong> Financeiro / Administração</p>
+                    <p><strong>Carga horária diária:</strong> 8h48m</p>
+                    <p><strong>Saldo Atual:</strong> 12h19m</p>
+                    <p>
+                        <strong>Status:</strong>
+                        <span class="label label-success">Trabalhando</span>
+                        <span class="label label-primary">Férias</span>
+                        <span class="label label-warning">Em almoço</span>
+                        <!-- <span class="label label-danger">Fora de horário de serviço</span> -->
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="media-heading">Manuel da Silva</h3>
+                    <p><strong>Cargo:</strong> Analista de Mercado</p>
+                    <p><strong>Setor:</strong> Financeiro / Administração</p>
+                    <p><strong>Carga horária diária:</strong> 8h48m</p>
+                    <p><strong>Saldo Atual:</strong> 12h19m</p>
+                    <p>
+                        <strong>Status:</strong>
+                        <span class="label label-success">Trabalhando</span>
+                        <span class="label label-primary">Férias</span>
+                        <span class="label label-warning">Em almoço</span>
+                        <!-- <span class="label label-danger">Fora de horário de serviço</span> -->
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="media-heading">Manuel da Silva</h3>
+                    <p><strong>Cargo:</strong> Analista de Mercado</p>
+                    <p><strong>Setor:</strong> Financeiro / Administração</p>
+                    <p><strong>Carga horária diária:</strong> 8h48m</p>
+                    <p><strong>Saldo Atual:</strong> 12h19m</p>
+                    <p>
+                        <strong>Status:</strong>
+                        <span class="label label-success">Trabalhando</span>
+                        <span class="label label-primary">Férias</span>
+                        <span class="label label-warning">Em almoço</span>
+                        <!-- <span class="label label-danger">Fora de horário de serviço</span> -->
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="media-heading">Manuel da Silva</h3>
+                    <p><strong>Cargo:</strong> Analista de Mercado</p>
+                    <p><strong>Setor:</strong> Financeiro / Administração</p>
+                    <p><strong>Carga horária diária:</strong> 8h48m</p>
+                    <p><strong>Saldo Atual:</strong> 12h19m</p>
+                    <p>
+                        <strong>Status:</strong>
+                        <span class="label label-success">Trabalhando</span>
+                        <span class="label label-primary">Férias</span>
+                        <span class="label label-warning">Em almoço</span>
+                        <!-- <span class="label label-danger">Fora de horário de serviço</span> -->
+                    </p>
+                </div>
             </div>
         </div>
         <hr />

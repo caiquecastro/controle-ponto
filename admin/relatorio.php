@@ -35,19 +35,41 @@
                 <h2>Relatório de Ponto</h2>
             </div>
             <div class="col-md-12">
-                <h3>Saldo Total</h3>
-                <p class="lead">12 horas e 16 minutos</p>
                 <h3>Histórico</h3>
-                <form class="form-inline" method="GET">
+                <h4>Filtrar</h4>
+                <form class="form-horizontal" method="GET">
                     <div class="form-group">
-                        <label>Exportar: </label> de
-                        <input type="date" class="form-control" /> a <input type="date" class="form-control" />
+                        <label class="control-label col-md-2">Período: </label>
+                        <div class="col-md-4">
+                            <input type="date" class="form-control" />
+                        </div>
+                        <div class="col-md-4">
+                            <input type="date" class="form-control" />
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Exportar</button>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Funcionário: </label>
+                        <div class="col-md-4">
+                            <select class="form-control">
+                                <option value="">Caíque de Castro Soares da Silva</option>
+                                <option value="">Func Y</option>
+                                <option value="">Func Z</option>
+                                <option value="">Func A</option>
+                                <option value="">Func B</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-primary btn-block">Filtrar</button>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-primary btn-block">Exportar</button>
+                        </div>
+                    </div>
                 </form>
                 <table class="table">
                     <thead>
                         <tr>
+                            <th>Funcionário</th>
                             <th>Dia</th>
                             <th>Entrada</th>
                             <th>Ida Almoço</th>
@@ -60,6 +82,7 @@
                     </thead>
                     <tbody>
                         <tr class="active">
+                            <td>Joaquim da Silva</td>
                             <td>18/08/2014</td>
                             <td>07:58</td>
                             <td>12:12</td>
@@ -70,6 +93,7 @@
                             <td>...</td>
                         </tr>
                         <tr class="info">
+                            <td>Manuel Pereira</td>
                             <td>17/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -80,6 +104,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="info">
+                            <td>Manuel Pereira</td>
                             <td>16/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -90,6 +115,7 @@
                             <td>-</td>
                         </tr>
                         <tr>
+                            <td>Manuel Pereira</td>
                             <td>15/08/2014</td>
                             <td>07:58</td>
                             <td>12:12</td>
@@ -100,6 +126,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="danger">
+                            <td>Manuel Pereira</td>
                             <td>14/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -110,6 +137,7 @@
                             <td>-</td>
                         </tr>
                         <tr>
+                            <td>Joaquim da Silva</td>
                             <td>13/08/2014</td>
                             <td>07:58</td>
                             <td>12:12</td>
@@ -120,6 +148,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="warning">
+                            <td>Joaquim da Silva</td>
                             <td>12/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -130,6 +159,7 @@
                             <td>-</td>
                         </tr>
                         <tr>
+                            <td>Joaquim da Silva</td>
                             <td>11/08/2014</td>
                             <td>08:00</td>
                             <td>12:00</td>
@@ -140,6 +170,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="info">
+                            <td>Joaquim da Silva</td>
                             <td>10/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -150,6 +181,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="info">
+                            <td>Manuel Pereira</td>
                             <td>09/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -160,6 +192,7 @@
                             <td>-</td>
                         </tr>
                         <tr>
+                            <td>Manuel Pereira</td>
                             <td>08/08/2014</td>
                             <td>08:00</td>
                             <td>12:00</td>
@@ -170,6 +203,7 @@
                             <td>-</td>
                         </tr>
                         <tr>
+                            <td>Manuel Pereira</td>
                             <td>07/08/2014</td>
                             <td>08:00</td>
                             <td>12:00</td>
@@ -180,6 +214,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>06/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -190,6 +225,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>05/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -200,6 +236,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>04/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -210,6 +247,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>03/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -220,6 +258,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>02/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -230,6 +269,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>01/08/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -240,6 +280,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>31/07/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -250,6 +291,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>30/07/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -260,6 +302,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>29/07/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -270,6 +313,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>28/07/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -280,6 +324,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>27/07/2014</td>
                             <td>-</td>
                             <td>-</td>
@@ -290,6 +335,7 @@
                             <td>-</td>
                         </tr>
                         <tr class="success">
+                            <td>Joaquim da Silva</td>
                             <td>26/07/2014</td>
                             <td>-</td>
                             <td>-</td>
