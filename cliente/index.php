@@ -43,23 +43,71 @@
                         <h3>João Carlos Figueira Sousa</h3>
                         <p><strong>Cargo:</strong> Programador Júnior</p>
                         <p><strong>Setor:</strong> RH / Administração</p>
+                        <p>Em serviço há 07h36m.</p>
                         <p>
-                            Em serviço há 07h36m. Entrou às 08:00. Saiu para almoço às 12:12. Voltou de almoço às 14:05.
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-success disabled">Entrar</a>
-                            <a href="#" class="btn btn-warning"> Sair para almoço</a>
-                            <a href="#" class="btn btn-warning"> Voltar do almoço</a>
-                            <a href="#" class="btn btn-danger">Sair</a>
+                            <a href="#" data-toggle="modal" data-target="#modalConfirm" class="btn btn-success disabled">Entrar</a>
+                            <a href="#" data-toggle="modal" data-target="#modalConfirm" class="btn btn-warning">Sair para almoço</a>
+                            <a href="#" data-toggle="modal" data-target="#modalConfirm" class="btn btn-warning">Voltar do almoço</a>
+                            <a href="#" data-toggle="modal" data-target="#modalConfirm" class="btn btn-danger">Sair</a>
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-12">
+                <h3>Ponto de Hoje</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Entrada</th>
+                            <th>Ida Almoço</th>
+                            <th>Volta Almoço</th>
+                            <th>Saída</th>
+                            <th>Tempo Total</th>
+                            <th>Saldo</th>
+                            <th>Observações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>07:58</td>
+                            <td>12:12</td>
+                            <td>14:08</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="relatorio.php">Ver relatório</a>
             </div>
         </div>
         <hr />
         <footer>
             <p>© 2014 - Copyrights <a href="#">Caíque de Castro Developer</a> - Built with <a href="#">Bootstrap</a></p>
         </footer>
+    </div>
+    <div class="modal fade" id="modalConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Entrando às 09:38</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="form">
+                        <div class="form-group">
+                            <label>Senha:</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Confirmar</button>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
