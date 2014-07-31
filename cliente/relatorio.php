@@ -38,6 +38,13 @@
                 <h3>Saldo Total</h3>
                 <p class="lead">12 horas e 16 minutos</p>
                 <h3>Histórico</h3>
+                <form class="form-inline" method="GET">
+                    <div class="form-group">
+                        <label>Exportar: </label> de
+                        <input type="date" class="form-control" /> a <input type="date" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Exportar</button>
+                </form>
                 <table class="table">
                     <thead>
                         <tr>
