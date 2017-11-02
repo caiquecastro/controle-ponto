@@ -1,21 +1,20 @@
 Controle de Ponto
 ==============
 
-Ferramenta para controlar o ponto de funcionários e estagiários
+Tool to register and time control for employees.
 
-##Requisitos##
-* Servidor Linux
-* Apache 2.2+
-* PHP 5.3+
-* MySQL 5.5+
-* Navegador Atualizado (IE9+, Chrome, ..)
+## Stack
+* NodeJS
+* Express
+* Mongo
+* VueJS
 
-##Funcionalidades##
-###Administrador###
+## Features
+### Human Resources
 * Ver quem está em horário de serviço no momento
 * Ver o relatório de horários de ponto dos seus funcionários
 
-###Cliente###
+### Employee
 * Registrar entrada / saída de horário de serviço
 * Ver seu relatório de horário de ponto
 * Exportar relatório de ponto
