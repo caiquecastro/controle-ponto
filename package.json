@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "mocha",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,8 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "mocha": "^4.0.1",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "webpack": "^3.8.1"
   },
   "dependencies": {
     "express": "^4.16.2",
